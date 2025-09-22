@@ -1,0 +1,48 @@
+@echo off
+title CB: MAX Blocker on PC for Windows
+CHCP 65001
+cls
+echo Кириллица:
+echo Добро пожаловать в CB: MAX Blocker on PC for Windows.
+echo Если вы хотите заблокировать мессенджер MAX, нажмите на любую клавишу.
+echo.
+echo Latinitsa (u kogo vmesto kirillitsi krakozyabri):
+echo Dobro pozhalovat' v CB: MAX Blocker on PC for Windows.
+echo Esli vi hotite zablokirovat' messendzher MAX, nazhmite na luybuyu klavishu.
+echo.
+pause
+cls
+title Бай-бай скаМ!
+echo # Вычищайте всё ниже, если по какой-то непонятной причине нужно разбанить MAX >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 ext-api.max.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 ws-api-test.max.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 miniapps.max.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 adgenerator.max.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 smev-gos.max.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 bid.max.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 business.max.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 b2bapi.max.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 api-warp.max.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 ext-bots.max.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 b2bsupportbot.max.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 api.max.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 dev.max.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 ws-api.oneme.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 i.oneme.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 pimg.mycdn.me >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 sdk-api.apptracer.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 st.max.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 max.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 www.max.ru >> C:\Windows\System32\drivers\etc\hosts
+echo 93.186.225.194 download.max.ru >> C:\Windows\System32\drivers\etc\hosts
+cls
+title MAX умер!
+cls
+echo MAX больше не будет работать на этом устройстве.
+echo ПРОСЬБА! Не выполняйте этот скрипт заново! Всё уже заблокировалось!
+echo Рекомендуем перезагрузить компьютер, или как минимум все программы, чтобы всё заблокировалось!
+echo Если по какой-то причине нужно разбанить макс, откройте от имени администратора в блокноте файл C:\Windows\System32\drivers\etc\hosts, там будет указано с какой строчки надо вычищать, чтобы скам заработал.
+echo Нажмите на любую клавишу, чтобы выйти.
+pause
+Exit
+

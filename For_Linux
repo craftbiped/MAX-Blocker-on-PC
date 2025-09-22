@@ -1,0 +1,34 @@
+#!/bin/bash
+echo Добро пожаловать в CB: MAX Blocker on PC for Linux.
+echo Если вы хотите забанить MAX, введите ваш ROOT-пароль.
+sudo echo 1
+echo "# Вычищайте всё ниже, если по какой-то непонятной причине нужно разбанить MAX" | sudo tee --append /etc/hosts
+echo "93.186.225.194 ext-api.max.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 ws-api-test.max.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 miniapps.max.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 adgenerator.max.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 smev-gos.max.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 bid.max.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 business.max.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 b2bapi.max.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 api-warp.max.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 ext-bots.max.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 b2bsupportbot.max.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 api.max.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 dev.max.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 ws-api.oneme.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 i.oneme.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 pimg.mycdn.me" | sudo tee --append /etc/hosts
+echo "93.186.225.194 sdk-api.apptracer.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 st.max.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 max.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 www.max.ru" | sudo tee --append /etc/hosts
+echo "93.186.225.194 download.max.ru" | sudo tee --append /etc/hosts
+sleep 1
+clear
+echo MAX больше не будет работать на этом устройстве.
+echo ПРОСЬБА! Не выполняйте этот скрипт заново! Всё уже заблокировалось!
+echo Рекомендуем перезагрузить компьютер, или как минимум все программы, чтобы всё заблокировалось!
+echo Если по какой-то причине нужно разбанить макс, откройте от имени рута в текстовом редакторе файл /etc/hosts, там будет указано с какой строчки надо вычищать, чтобы скам заработал.
+echo Теперь вы можете закрыть это окошко.
+sleep infinity
