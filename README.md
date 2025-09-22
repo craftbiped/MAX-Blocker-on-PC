@@ -44,8 +44,8 @@ curl https://raw.githubusercontent.com/craftbiped/MAX-Blocker-on-PC/refs/heads/m
 
 ### Для Windows:
 Откройте блокнот от имени администратора.
-С помощью блокнота перейдите по пути C:\Windows\System32\drivers\etc
-Откройте файл hosts
+С помощью блокнота перейдите по пути C:\Windows\System32\drivers\etc. 
+Откройте файл hosts. 
 Вставьте в него:
 ```
 93.186.225.194 b2bsupportbot.max.ru
@@ -66,7 +66,7 @@ curl https://raw.githubusercontent.com/craftbiped/MAX-Blocker-on-PC/refs/heads/m
 
 ### Для Linux:
 Введите в терминале:
-sudo nano /etc/hosts
+sudo nano /etc/hosts. 
 Вставьте в него:
 ```
 93.186.225.194 b2bsupportbot.max.ru
